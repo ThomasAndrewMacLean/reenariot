@@ -1,14 +1,18 @@
 import React from 'react'
+// import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import Image from '../components/image'
 import SEO from '../components/seo'
 
-const NotFoundPage = () => (
+const IndexPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    {/* <h1>Reena Riot</h1> */}
+    <div style={{ maxWidth: `900px`, marginBottom: `1.45rem` }}>
+      <Image />
+    </div>
   </Layout>
 )
 
-export default NotFoundPage
+export default IndexPage
