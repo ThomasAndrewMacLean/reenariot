@@ -715,52 +715,6 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@sentry/browser@latest":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-4.5.1.tgz#a095f9636c3fd88f97086b6888c6f32f445c8fe8"
-  dependencies:
-    "@sentry/core" "4.5.1"
-    "@sentry/types" "4.5.0"
-    "@sentry/utils" "4.5.1"
-    tslib "^1.9.3"
-
-"@sentry/core@4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-4.5.1.tgz#bfc98a276974a670e25ca5873ba7ac078bf5410d"
-  dependencies:
-    "@sentry/hub" "4.5.1"
-    "@sentry/minimal" "4.5.1"
-    "@sentry/types" "4.5.0"
-    "@sentry/utils" "4.5.1"
-    tslib "^1.9.3"
-
-"@sentry/hub@4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-4.5.1.tgz#979c0a826a9abfa567516b0da0e6f4017130def9"
-  dependencies:
-    "@sentry/types" "4.5.0"
-    "@sentry/utils" "4.5.1"
-    tslib "^1.9.3"
-
-"@sentry/minimal@4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-4.5.1.tgz#a6128aab2a3967d8eb99afb3029057e1b4d9aaa5"
-  dependencies:
-    "@sentry/hub" "4.5.1"
-    "@sentry/types" "4.5.0"
-    tslib "^1.9.3"
-
-"@sentry/types@4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-4.5.0.tgz#59e2a27d48b01b44e8959aa5c8a30514fe1086a9"
-
-"@sentry/utils@4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-4.5.1.tgz#23f8a8fbe84e06d2546d3f1a72e30b34cbc2a3d8"
-  dependencies:
-    "@sentry/types" "4.5.0"
-    tslib "^1.9.3"
-
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
@@ -4396,6 +4350,12 @@ gatsby-link@^2.0.7:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
+gatsby-plugin-google-analytics@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.9.tgz#c273b5660a304feced097a724ce71e8a26695b31"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 gatsby-plugin-manifest@^2.0.9:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.12.tgz#7e25f8997ea690969eeaa010a2d111209282f2ce"
@@ -4433,12 +4393,6 @@ gatsby-plugin-react-helmet@^3.0.2:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.0.5.tgz#eaeca7c83c6c273d31454598949dd0d3b4ff5f31"
   dependencies:
     "@babel/runtime" "^7.0.0"
-
-gatsby-plugin-sentry@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sentry/-/gatsby-plugin-sentry-1.0.0.tgz#746307a27f5382a9a787fa86ac812b947f8bebc5"
-  dependencies:
-    "@sentry/browser" latest
 
 gatsby-plugin-sharp@^2.0.14:
   version "2.0.16"
@@ -9361,7 +9315,7 @@ trim@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/trim/-/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
 
-tslib@^1.6.0, tslib@^1.9.0, tslib@^1.9.3:
+tslib@^1.6.0, tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
